@@ -51,7 +51,7 @@
         .col-xl-4.mx-auto.mb-4.mb-xl-0.order-1.order-xl-2
           img(src="@/assets/curso/temas/tema2/img-2.svg")
       .d-flex.flex-wrap.align-items-center.mb-5
-        img.col-md-2(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
+        img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
         p.ps-md-4.col-md.mb-0 Como se vio anteriormente, los modelos pueden tener varios propósitos; en la siguiente infografía se presentan las diferentes finalidades que tienen los modelos dentales para utilizar.
       
     img(src="@/assets/curso/temas/tema2/img-3.jpg" style="margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem);")
@@ -60,7 +60,7 @@
       p.d-flex.fw-bold.ps-md-4.mb-0 Se usan para confección de cubetas, planchas base, rodillos, férulas de blanqueamiento, y preproyectos restauradores.
 
     .d-flex.flex-wrap.align-items-center.mb-5
-      img.col-md-2(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
+      img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
       p.ps-md-4.col-md.mb-0 Los modelos son de vital importancia en la confección de las prótesis, ya que mediante el registro preciso de las estructuras anatómicas y su función se busca disminuir los efectos adversos y mejorar su funcionamiento. Estos modelos se clasifican en:
     
     SlyderF.mb-5.slide-edit(columnas="col-lg-6 col-xl-4")
@@ -90,7 +90,7 @@
         p.p-3.b-0(style="color: black;") El sistema instala una espiga en la base del pilar –confección de zócalo– se seguetea e independiza (individualiza). Es como el anterior, pero los trozos en vez de ir sueltos van con un pincho que se agarra al zócalo.
 
     .d-flex.flex-wrap.align-items-center.mb-5
-      img.col-md-2(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
+      img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
       p.ps-md-4.col-md.mb-0 La odontología digital permite crear una prótesis dental de gran resistencia y calidad con la mejor adaptabilidad a la boca del paciente, ya que la fabricación se realiza de manera personalizada y en tiempo real. En el caso concreto del sistema CAD/CAM, introducido en el campo de la odontología en la década de 1970, impulsa el desarrollo de una práctica dental ciento por ciento profesional y sofisticada, pues posibilita la obtención de piezas precisas, simplifica los pasos de laboratorio y optimiza todo el proceso del tratamiento odontológico.
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-xl-6.order-2.order-xl-1
