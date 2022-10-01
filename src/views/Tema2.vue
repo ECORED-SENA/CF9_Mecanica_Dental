@@ -10,8 +10,8 @@
     .d-flex.flex-wrap.mb-5
       .d-flex.flex-wrap.mb-5
         .col-xl-4.mx-auto.mb-4.mb-xl-0
-          img(src="@/assets/curso/temas/tema2/img-1.svg")
-        .col-xl-8.ps-xl-4
+          img(src="@/assets/curso/temas/tema2/img-1.svg" data-aos="fade-right")
+        .col-xl-8.ps-xl-4(data-aos="fade-left")
           p Después de la información suministrada por el profesional de odontología, a través de una detallada representación de la boca del paciente, por software, o de forma tradicional con un modelo de yeso, se evidencia claramente la reproducción de todos los dientes de una arcada, y/o de las brechas o rebordes alveolares residuales, rodeado de los accidentes anatómicos y relieves intrabucales anejos. La validez de un modelo se basa en:
           ol.lista-ol--cuadro.lista-ol--separador.ps-4
             li 
@@ -33,7 +33,7 @@
                 span 2
               | #[b Zócalo:] estructura de conveniencia dedicada a facilitar la orientación y estabilidad del modelo, su manejo, su fijación y protección de la zona noble.
       .d-flex.flex-wrap.mb-5
-        .col-xl-8.order-2.order-xl-1
+        .col-xl-8.order-2.order-xl-1(data-aos="fade-right")
           p Además, los modelos se pueden clasificar de diferentes maneras, como se presenta a continuación.
           ul.lista-ul
             li.d-flex.align-items-center
@@ -49,21 +49,21 @@
               span(style="background-color: #13C6CC; height: 10px; width: 10px; border-radius: 50%; margin-right: .5rem")
               | #[b Por sus objetivos:] demostración o exposición, diagnósticos, de trabajo.
         .col-xl-4.mx-auto.mb-4.mb-xl-0.order-1.order-xl-2
-          img(src="@/assets/curso/temas/tema2/img-2.svg")
-      .d-flex.flex-wrap.align-items-center.mb-5
+          img(src="@/assets/curso/temas/tema2/img-2.svg" data-aos="fade-left")
+      .d-flex.flex-wrap.align-items-center.mb-5(data-aos="fade-right")
         img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
         p.ps-md-4.col-md.mb-0 Como se vio anteriormente, los modelos pueden tener varios propósitos; en la siguiente infografía se presentan las diferentes finalidades que tienen los modelos dentales para utilizar.
       
-    img(src="@/assets/curso/temas/tema2/img-3.jpg" style="margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem);")
+    img(src="@/assets/curso/temas/tema2/img-3.jpg" data-aos="fade-up" style="margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem);")
     .d-flex.flex-wrap.align-items-center.justify-content-center.mb-5(style="background-color: #97D9FD; margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem); padding: .5rem 4rem")
       img.col-md-2(src="@/assets/curso/temas/tema1/decorador.svg" style="max-width: 50px;")
       p.d-flex.fw-bold.ps-md-4.mb-0 Se usan para confección de cubetas, planchas base, rodillos, férulas de blanqueamiento, y preproyectos restauradores.
 
-    .d-flex.flex-wrap.align-items-center.mb-5
+    .d-flex.flex-wrap.align-items-center.mb-5(data-aos="fade-right")
       img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
       p.ps-md-4.col-md.mb-0 Los modelos son de vital importancia en la confección de las prótesis, ya que mediante el registro preciso de las estructuras anatómicas y su función se busca disminuir los efectos adversos y mejorar su funcionamiento. Estos modelos se clasifican en:
     
-    SlyderF.mb-5.slide-edit(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5.slide-edit(columnas="col-lg-6 col-xl-4" data-aos="fade-left")
       .tarjeta.color-acento-botones.text-center(style="background-color: #CCE3F2")
         img.mb-4(src="@/assets/curso/temas/tema2/img-4.png")
         h4.px-3(style="color: black;") Modelo maestro
@@ -89,17 +89,17 @@
         h4.px-3(style="color: black;") Modelo elaborado con técnica de poste telescópico
         p.p-3.b-0(style="color: black;") El sistema instala una espiga en la base del pilar –confección de zócalo– se seguetea e independiza (individualiza). Es como el anterior, pero los trozos en vez de ir sueltos van con un pincho que se agarra al zócalo.
 
-    .d-flex.flex-wrap.align-items-center.mb-5
+    .d-flex.flex-wrap.align-items-center.mb-5(data-aos="fade-right")
       img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
       p.ps-md-4.col-md.mb-0 La odontología digital permite crear una prótesis dental de gran resistencia y calidad con la mejor adaptabilidad a la boca del paciente, ya que la fabricación se realiza de manera personalizada y en tiempo real. En el caso concreto del sistema CAD/CAM, introducido en el campo de la odontología en la década de 1970, impulsa el desarrollo de una práctica dental ciento por ciento profesional y sofisticada, pues posibilita la obtención de piezas precisas, simplifica los pasos de laboratorio y optimiza todo el proceso del tratamiento odontológico.
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-xl-6.order-2.order-xl-1
-        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #C3F1F2")
+        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #C3F1F2" data-aos="fade-right")
           h4 ¿Cómo funciona?
           p.mb-0 Fabricando piezas, partiendo de una reproducción digital tridimensional de la boca del paciente, lo que reduce al 100% los errores humanos en materia de exactitud de piezas.
-        p Los materiales que emplea este sistema son los polímeros, la cerámica de vidrio, la resina, las ceras, el titanio de grado 2 o dorado y el circonio, todos elementos biocompatibles y seguros para la creación de prótesis dentarias resistentes, durables y sumamente estéticas
-        p Las aplicaciones de esta tecnología tridimensional son bastantes, permitiendo a un laboratorio fabricar todo tipo de prótesis dental:
-        .tarjeta.tarjeta--azul.d-flex.flex-wrap.align-items-center.px-4
+        p(data-aos="fade-right") Los materiales que emplea este sistema son los polímeros, la cerámica de vidrio, la resina, las ceras, el titanio de grado 2 o dorado y el circonio, todos elementos biocompatibles y seguros para la creación de prótesis dentarias resistentes, durables y sumamente estéticas
+        p(data-aos="fade-right") Las aplicaciones de esta tecnología tridimensional son bastantes, permitiendo a un laboratorio fabricar todo tipo de prótesis dental:
+        .tarjeta.tarjeta--azul.d-flex.flex-wrap.align-items-center.px-4(data-aos="fade-right")
           img.mb-4.mb-lg-0.col-lg-4(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 205px")  
           .col-lg-8.mb-4.mb-lg-0
             ul.lista-ul--color.mb-0
@@ -128,28 +128,28 @@
                 span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | Restauraciones temporales y permanentes.
       .col-xl-6.order-1.order-xl-2.ps-xl-4.mb-4.mb-xl-0
-        img.mx-auto(src="@/assets/curso/temas/tema2/img-9.png" style="max-width: 610px")
+        img.mx-auto(src="@/assets/curso/temas/tema2/img-9.png" data-aos="fade-left" style="max-width: 610px")
 
     .d-flex.flex-wrap.align-items-center.mb-5(style="background-color: #EFEFF3")
-      img.mb-4.mb-lg-0.col-lg-6(src="@/assets/curso/temas/tema2/img-11.png")
-      p.p-4.col-lg-6.pe-lg-4 La metodología utilizada por este tipo de tecnología se desarrolla a través de medios ópticos que permiten escanear un objeto sin necesidad de estar en contacto con el mismo, y mediante un software de diseño se reacomodan las imágenes obtenidas para alcanzar la máxima exactitud al imprimir la pieza mediante una impresora 3D.
+      img.mb-4.mb-lg-0.col-lg-6(src="@/assets/curso/temas/tema2/img-11.png" data-aos="fade-right")
+      p.p-4.col-lg-6.pe-lg-4(data-aos="fade-left") La metodología utilizada por este tipo de tecnología se desarrolla a través de medios ópticos que permiten escanear un objeto sin necesidad de estar en contacto con el mismo, y mediante un software de diseño se reacomodan las imágenes obtenidas para alcanzar la máxima exactitud al imprimir la pieza mediante una impresora 3D.
     
-    p.text-center.mb-5 De esta manera, se puede categorizar al sistema CAD/CAM en fases metodológicas a la hora de crear una prótesis dental 3D:
+    p.text-center.mb-5(data-aos="fade-right") De esta manera, se puede categorizar al sistema CAD/CAM en fases metodológicas a la hora de crear una prótesis dental 3D:
 
     .bg-edit-last
-      .col-lg-6.col-xl-3.px-md-2.d-flex
+      .col-lg-6.col-xl-3.px-md-2.d-flex(data-aos="fade-right")
         .tarjeta.p-4
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-12.svg" style="max-width: 65px")
           p.mb-0 #[b 1.] Escaneo digitalizado de la cavidad bucal, de la mordida o del diente o implante a fabricar gracias al trabajo con un escáner intraoral. 
-      .col-lg-6.col-xl-3.px-md-2.d-flex
+      .col-lg-6.col-xl-3.px-md-2.d-flex(data-aos="fade-left")
         .tarjeta.p-4
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-13.svg" style="max-width: 65px")
           p.mb-0 #[b 2.] Diseño en ordenador de la prótesis dental utilizando un #[em software] 3D que permite calcular los ejes de inserción y tener referencias para fabricar posteriormente la pieza de forma exacta. 
-      .col-lg-6.col-xl-3.px-md-2.d-flex
+      .col-lg-6.col-xl-3.px-md-2.d-flex(data-aos="fade-right")
         .tarjeta.p-4
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-14.svg" style="max-width: 65px")
           p.mb-0 #[b 3.] La impresión del dispositivo dental en muy pocos minutos, partiendo de los datos en tiempo real que fueron recabados en el diseño de la prótesis.
-      .col-lg-6.col-xl-3.px-md-2.d-flex
+      .col-lg-6.col-xl-3.px-md-2.d-flex(data-aos="fade-left")
         .tarjeta.p-4
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-15.svg" style="max-width: 65px")
           p.mb-0 #[b 4.] Acabado de producto aplicando la caracterización final para mejorar la estética.
