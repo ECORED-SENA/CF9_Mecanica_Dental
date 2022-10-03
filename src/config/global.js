@@ -222,7 +222,7 @@ export default {
     {
       termino: 'Pinza de mosquito',
       significado:
-        'instrumental que se usa para sujetar la pieza en la que quieras aplicar el opaque por medio del jito.',
+        'instrumental que se usa para sujetar la pieza en la que quieras aplicar el <em>opaque</em> por medio del jito.',
     },
     {
       termino: 'Póntico',

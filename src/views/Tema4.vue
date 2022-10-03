@@ -24,10 +24,10 @@
         ul.lista-ul
           li(data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #0273BC; font-size: 20px")
-            P #[b(style="color: #0273BC") Encerados:] se encera la corona o puente y se ponen los gitos (son estructuras a través de la cual va a pasar el metal colado), para llevarlo a la cámara de rechupado. En los gitos, a veces se pueden poner estructuras complementarias para la expulsión de gases. Es muy importante el encerado para obtener un buen colado (se emplearán aleaciones preciosas o titanio, etc.).
+            P #[b(style="color: #0273BC") Encerados:] se encera la corona o puente y se ponen los jitos (son estructuras a través de la cual va a pasar el metal colado), para llevarlo a la cámara de rechupado. En los jitos, a veces se pueden poner estructuras complementarias para la expulsión de gases. Es muy importante el encerado para obtener un buen colado (se emplearán aleaciones preciosas o titanio, etc.).
           li(data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #0273BC; font-size: 20px")
-            P #[b(style="color: #0273BC") Técnicas de colado:] se pone el encerado en el cilindro de revestimiento, se expande el revestimiento en el horno, se cuela el metal, se elimina el revestimiento y, por último, se repasa y pule el metal para eliminar los gitos y demás).
+            P #[b(style="color: #0273BC") Técnicas de colado:] se pone el encerado en el cilindro de revestimiento, se expande el revestimiento en el horno, se cuela el metal, se elimina el revestimiento y, por último, se repasa y pule el metal para eliminar los jitos y demás).
           li(data-aos="fade-right")
             ul.lista-ul
               li
@@ -68,13 +68,13 @@
             img(src='@/assets/curso/temas/tema4/img-8.png')
       .row.pt-3(numero="2" titulo="Composites y acrílicos" data-aos="fade-right")
         .col-md-6.mb-4.mb-md-0
-          p Se usan en provisionales, de larga duración, por sus características de adaptación y resistencia. Se le pueden aplicar refuerzos de fibra de vidrio o fibra Kevlar.
+          p Se usan en provisionales, de larga duración, por sus características de adaptación y resistencia. Se le pueden aplicar refuerzos de fibra de vidrio o fibra <em>Kevlar</em>.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema4/img-9.png')
-      .row.pt-3(numero="3" titulo="Colocación del opaquer" data-aos="fade-right")
+      .row.pt-3(numero="3" titulo="Colocación del <em>opaquer</em>" data-aos="fade-right")
         .col-md-6.mb-4.mb-md-0
-          p Se utiliza para no ver el color del metal. El opaquer se usa en función de las capas que se vayan a hacer. 
+          p Se utiliza para no ver el color del metal. El #[em opaquer] se usa en función de las capas que se vayan a hacer. 
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema4/img-10.png')
@@ -112,7 +112,7 @@
       span(style="background-color: #0082EF; width: 21px; height: 21px;")
       h4 Técnicas de CAD-CAM:
 
-    p.mb-5(data-aos="fade-left") Esta técnica permite la realización de restauraciones indirectas, prótesis fijas unitarias y plurales, inlay-cores, carillas, prótesis fijas peri implantares (pegadas o atornilladas) e incluso prótesis provisionales. #[b(style="color: #0273BC") En el siguiente recurso se pueden ver sus principales etapas.]
+    p.mb-5(data-aos="fade-left") Esta técnica permite la realización de restauraciones indirectas, prótesis fijas unitarias y plurales, #[em inlay-cores], carillas, prótesis fijas peri implantares (pegadas o atornilladas) e incluso prótesis provisionales. #[b(style="color: #0273BC") En el siguiente recurso se pueden ver sus principales etapas.]
     
     SlyderB.mb-5(:datos="datosSlyder2" data-aos="fade-right")    
     
@@ -135,13 +135,15 @@ export default {
         imagen: require('@/assets/curso/temas/tema4/img-1.jpg'),
       },
       {
-        titulo: 'Modelo elaborado con técnicas de ensamblaje (Di-Lock)',
+        titulo:
+          'Modelo elaborado con técnicas de ensamblaje <em>(Di-Lock)</em>',
         texto:
           'En una cubeta molde se instala el modelo, se realiza el corte de cada pilar y queda separado cada uno.',
         imagen: require('@/assets/curso/temas/tema4/img-2.jpg'),
       },
       {
-        titulo: 'Modelo elaborado con técnica de poste telescópico (Pindex)',
+        titulo:
+          'Modelo elaborado con técnica de poste telescópico <em>(Pindex)</em>',
         texto:
           'El sistema instala una espiga en la base del pilar, la confección de zócalo se seguetea e independiza.',
         imagen: require('@/assets/curso/temas/tema4/img-3.jpg'),

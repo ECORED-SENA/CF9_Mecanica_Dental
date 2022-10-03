@@ -12,26 +12,26 @@
         .col-xl-4.mx-auto.mb-4.mb-xl-0
           img(src="@/assets/curso/temas/tema2/img-1.svg" data-aos="fade-right")
         .col-xl-8.ps-xl-4(data-aos="fade-left")
-          p Después de la información suministrada por el profesional de odontología, a través de una detallada representación de la boca del paciente, por software, o de forma tradicional con un modelo de yeso, se evidencia claramente la reproducción de todos los dientes de una arcada, y/o de las brechas o rebordes alveolares residuales, rodeado de los accidentes anatómicos y relieves intrabucales anejos. La validez de un modelo se basa en:
+          p Después de la información suministrada por el profesional de odontología, a través de una detallada representación de la boca del paciente, por #[em software], o de forma tradicional con un modelo de yeso, se evidencia claramente la reproducción de todos los dientes de una arcada, y/o de las brechas o rebordes alveolares residuales, rodeado de los accidentes anatómicos y relieves intrabucales anejos. La validez de un modelo se basa en:
           ol.lista-ol--cuadro.lista-ol--separador.ps-4
             li 
               .lista-ol--cuadro__vineta
                 span 1
-              | #[b Fidelidad:] reproducción precisa de la morfología 
+              p #[b Fidelidad:] reproducción precisa de la morfología que representa.
             li 
               .lista-ol--cuadro__vineta
                 span 2
-              | #[b Resistencia:] capacidad de soportar sin deterioro la manipulación.
+              p #[b Resistencia:] capacidad de soportar sin deterioro la manipulación.
           p Los modelos tienen dos tipos de partes, a saber:
           ol.lista-ol--cuadro.lista-ol--separador.ps-4
             li 
               .lista-ol--cuadro__vineta
                 span 1
-              | #[b Zona noble:] representación exclusivamente de las formas que persigue reproducir.
+              p #[b Zona noble:] representación exclusivamente de las formas que persigue reproducir.
             li 
               .lista-ol--cuadro__vineta
                 span 2
-              | #[b Zócalo:] estructura de conveniencia dedicada a facilitar la orientación y estabilidad del modelo, su manejo, su fijación y protección de la zona noble.
+              p #[b Zócalo:] estructura de conveniencia dedicada a facilitar la orientación y estabilidad del modelo, su manejo, su fijación y protección de la zona noble.
       .d-flex.flex-wrap.mb-5
         .col-xl-8.order-2.order-xl-1(data-aos="fade-right")
           p Además, los modelos se pueden clasificar de diferentes maneras, como se presenta a continuación.
@@ -103,36 +103,36 @@
           img.mb-4.mb-lg-0.col-lg-4(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 205px")  
           .col-lg-8.mb-4.mb-lg-0
             ul.lista-ul--color.mb-0
-              li.d-flex.flex-wrap.align-items-center.mb-0
-                span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+              li.d-flex.align-items-start.mb-0
+                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | Coronas CAD/CAM.
-              li.d-flex.flex-wrap.align-items-center.mb-0
-                span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+              li.d-flex.align-items-start.mb-0
+                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | Coronas 3D para restauraciones permanentes.
-              li.d-flex.flex-wrap.align-items-center.mb-0
-                span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+              li.d-flex.align-items-start.mb-0
+                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | #[em Inlay.]
-              li.d-flex.flex-wrap.align-items-center.mb-0
-                span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+              li.d-flex.align-items-start.mb-0
+                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | #[em Onlay.]
-              li.d-flex.flex-wrap.align-items-center.mb-0
-                span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+              li.d-flex.align-items-start.mb-0
+                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | #[em Veneers.]
-              li.d-flex.flex-wrap.align-items-center.mb-0
-                span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+              li.d-flex.align-items-start.mb-0
+                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | Prótesis dental de zirconio.
-              li.d-flex.flex-wrap.align-items-center.mb-0
-                span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+              li.d-flex.align-items-start.mb-0
+                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | Restauraciones metal – cerámica.
-              li.d-flex.flex-wrap.align-items-center.mb-0
-                span(style="background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+              li.d-flex.align-items-start.mb-0
+                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
                 | Restauraciones temporales y permanentes.
       .col-xl-6.order-1.order-xl-2.ps-xl-4.mb-4.mb-xl-0
         img.mx-auto(src="@/assets/curso/temas/tema2/img-9.png" data-aos="fade-left" style="max-width: 610px")
 
     .d-flex.flex-wrap.align-items-center.mb-5(style="background-color: #EFEFF3")
       img.mb-4.mb-lg-0.col-lg-6(src="@/assets/curso/temas/tema2/img-11.png" data-aos="fade-right")
-      p.p-4.col-lg-6.pe-lg-4(data-aos="fade-left") La metodología utilizada por este tipo de tecnología se desarrolla a través de medios ópticos que permiten escanear un objeto sin necesidad de estar en contacto con el mismo, y mediante un software de diseño se reacomodan las imágenes obtenidas para alcanzar la máxima exactitud al imprimir la pieza mediante una impresora 3D.
+      p.p-4.col-lg-6.pe-lg-4(data-aos="fade-left") La metodología utilizada por este tipo de tecnología se desarrolla a través de medios ópticos que permiten escanear un objeto sin necesidad de estar en contacto con el mismo, y mediante un #[em software] de diseño se reacomodan las imágenes obtenidas para alcanzar la máxima exactitud al imprimir la pieza mediante una impresora 3D.
     
     p.text-center.mb-5(data-aos="fade-right") De esta manera, se puede categorizar al sistema CAD/CAM en fases metodológicas a la hora de crear una prótesis dental 3D:
 
