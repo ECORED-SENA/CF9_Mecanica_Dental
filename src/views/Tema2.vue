@@ -7,7 +7,10 @@
         span 2
       h1 Tecnologías mixtas digital y analógico
 
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.py-5(
+      :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg.svg')})`}"
+      style="background-repeat: no-repeat; background-position: top; margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem); padding-right: 3rem; padding-left: 3rem;"
+    )
       .d-flex.flex-wrap.mb-5
         .col-xl-4.mx-auto.mb-4.mb-xl-0
           img(src="@/assets/curso/temas/tema2/img-1.svg" data-aos="fade-right")
@@ -37,20 +40,20 @@
           p Además, los modelos se pueden clasificar de diferentes maneras, como se presenta a continuación.
           ul.lista-ul
             li.d-flex.align-items-center
-              span(style="background-color: #13C6CC; height: 10px; width: 10px; border-radius: 50%; margin-right: .5rem")
-              | #[b Por la localización:] arcada superior o inferior.
+              span(style="background-color: #13C6CC; height: 10px; width: 10px; min-width: 10px; border-radius: 50%; margin-right: .5rem")
+              p.mb-0 #[b Por la localización:] arcada superior o inferior.
             li.d-flex.align-items-center
-              span(style="background-color: #13C6CC; height: 10px; width: 10px; border-radius: 50%; margin-right: .5rem")
-              | #[b Por la extensión:] completas o parciales.
+              span(style="background-color: #13C6CC; height: 10px; width: 10px; min-width: 10px; border-radius: 50%; margin-right: .5rem")
+              p.mb-0 #[b Por la extensión:] completas o parciales.
             li.d-flex.align-items-center
-              span(style="background-color: #13C6CC; height: 10px; width: 10px; border-radius: 50%; margin-right: .5rem")
-              | #[b Por las características de la arcada:] dentados, parcialmente desdentados, y desdentados totales.
+              span(style="background-color: #13C6CC; height: 10px; width: 10px; min-width: 10px; border-radius: 50%; margin-right: .5rem")
+              p.mb-0 #[b Por las características de la arcada:] dentados, parcialmente desdentados, y desdentados totales.
             li.d-flex.align-items-center
-              span(style="background-color: #13C6CC; height: 10px; width: 10px; border-radius: 50%; margin-right: .5rem")
-              | #[b Por sus objetivos:] demostración o exposición, diagnósticos, de trabajo.
+              span(style="background-color: #13C6CC; height: 10px; width: 10px; min-width: 10px; border-radius: 50%; margin-right: .5rem")
+              p.mb-0 #[b Por sus objetivos:] demostración o exposición, diagnósticos, de trabajo.
         .col-xl-4.mx-auto.mb-4.mb-xl-0.order-1.order-xl-2
           img(src="@/assets/curso/temas/tema2/img-2.svg" data-aos="fade-left")
-      .d-flex.flex-wrap.align-items-center.mb-5(data-aos="fade-right")
+      .d-flex.flex-wrap.align-items-center(data-aos="fade-right")
         img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
         p.ps-md-4.col-md.mb-0 Como se vio anteriormente, los modelos pueden tener varios propósitos; en la siguiente infografía se presentan las diferentes finalidades que tienen los modelos dentales para utilizar.
       
@@ -62,73 +65,76 @@
     .d-flex.flex-wrap.align-items-center.mb-5(data-aos="fade-right")
       img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
       p.ps-md-4.col-md.mb-0 Los modelos son de vital importancia en la confección de las prótesis, ya que mediante el registro preciso de las estructuras anatómicas y su función se busca disminuir los efectos adversos y mejorar su funcionamiento. Estos modelos se clasifican en:
-    
-    SlyderF.mb-5.slide-edit(columnas="col-lg-6 col-xl-4" data-aos="fade-left")
-      .tarjeta.color-acento-botones.text-center(style="background-color: #CCE3F2")
-        img.mb-4(src="@/assets/curso/temas/tema2/img-4.png")
-        h4.px-3(style="color: black;") Modelo maestro
-        p.p-3.b-0(style="color: black;") Obtenido a partir de una impresión definitiva. La importancia de su conservación radica en que es el único elemento de control de ajuste de la prótesis antes de su instalación en boca.
+    div(
+      :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-2.svg')})`}"
+      style="background-repeat: no-repeat; background-position: top; margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem); padding-right: 3rem; padding-left: 3rem;"
+    )
+      SlyderF.mb-5.slide-edit(columnas="col-lg-6 col-xl-4" data-aos="fade-left")
+        .tarjeta.color-acento-botones.text-center(style="background-color: #CCE3F2")
+          img.mb-4(src="@/assets/curso/temas/tema2/img-4.png")
+          h4.px-3(style="color: black;") Modelo maestro
+          p.p-3.b-0(style="color: black;") Obtenido a partir de una impresión definitiva. La importancia de su conservación radica en que es el único elemento de control de ajuste de la prótesis antes de su instalación en boca.
 
-      .tarjeta.color-acento-botones.text-center(style="background-color: #CFF4F5")
-        img.mb-4(src="@/assets/curso/temas/tema2/img-5.png")
-        h4.px-3(style="color: black;") Modelo duplicado
-        p.p-3.b-0(style="color: black;") Está indicado en las situaciones en que necesariamente el modelo maestro se modificará o se destruirá. Existen tratamientos específicos para mejorar la dureza superficial del modelo, sistemas de templado, barnizado y metalizado.
-      
-      .tarjeta.color-acento-botones.text-center(style="background-color: #CCE3F2")
-        img.mb-4(src="@/assets/curso/temas/tema2/img-6.png")
-        h4.px-3(style="color: black;") Modelo con muñones independientes
-        p.p-3.b-0(style="color: black;") Se obtienen mediante técnica hidrocoloide, modelo completo de la arcada, troqueles independientes.
+        .tarjeta.color-acento-botones.text-center(style="background-color: #CFF4F5")
+          img.mb-4(src="@/assets/curso/temas/tema2/img-5.png")
+          h4.px-3(style="color: black;") Modelo duplicado
+          p.p-3.b-0(style="color: black;") Está indicado en las situaciones en que necesariamente el modelo maestro se modificará o se destruirá. Existen tratamientos específicos para mejorar la dureza superficial del modelo, sistemas de templado, barnizado y metalizado.
+        
+        .tarjeta.color-acento-botones.text-center(style="background-color: #CCE3F2")
+          img.mb-4(src="@/assets/curso/temas/tema2/img-6.png")
+          h4.px-3(style="color: black;") Modelo con muñones independientes
+          p.p-3.b-0(style="color: black;") Se obtienen mediante técnica hidrocoloide, modelo completo de la arcada, troqueles independientes.
 
-      .tarjeta.color-acento-botones.text-center(style="background-color: #CFF4F5")
-        img.mb-4(src="@/assets/curso/temas/tema2/img-7.png")
-        h4.px-3(style="color: black;") Modelo elaborado con técnicas de ensamblaje
-        p.p-3.b-0(style="color: black;") En una cubeta molde se instala el modelo, se seguetea o recorta, los pilares se independizan a modo de rompecabezas. La ventaja que tiene es que en laboratorio permite montar un puente de una manera individual fuera del modelo. 
+        .tarjeta.color-acento-botones.text-center(style="background-color: #CFF4F5")
+          img.mb-4(src="@/assets/curso/temas/tema2/img-7.png")
+          h4.px-3(style="color: black;") Modelo elaborado con técnicas de ensamblaje
+          p.p-3.b-0(style="color: black;") En una cubeta molde se instala el modelo, se seguetea o recorta, los pilares se independizan a modo de rompecabezas. La ventaja que tiene es que en laboratorio permite montar un puente de una manera individual fuera del modelo. 
 
-      .tarjeta.color-acento-botones.text-center(style="background-color: #CCE3F2")
-        img.mb-4(src="@/assets/curso/temas/tema2/img-8.png")
-        h4.px-3(style="color: black;") Modelo elaborado con técnica de poste telescópico
-        p.p-3.b-0(style="color: black;") El sistema instala una espiga en la base del pilar –confección de zócalo– se seguetea e independiza (individualiza). Es como el anterior, pero los trozos en vez de ir sueltos van con un pincho que se agarra al zócalo.
+        .tarjeta.color-acento-botones.text-center(style="background-color: #CCE3F2")
+          img.mb-4(src="@/assets/curso/temas/tema2/img-8.png")
+          h4.px-3(style="color: black;") Modelo elaborado con técnica de poste telescópico
+          p.p-3.b-0(style="color: black;") El sistema instala una espiga en la base del pilar –confección de zócalo– se seguetea e independiza (individualiza). Es como el anterior, pero los trozos en vez de ir sueltos van con un pincho que se agarra al zócalo.
 
-    .d-flex.flex-wrap.align-items-center.mb-5(data-aos="fade-right")
-      img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
-      p.ps-md-4.col-md.mb-0 La odontología digital permite crear una prótesis dental de gran resistencia y calidad con la mejor adaptabilidad a la boca del paciente, ya que la fabricación se realiza de manera personalizada y en tiempo real. En el caso concreto del sistema CAD/CAM, introducido en el campo de la odontología en la década de 1970, impulsa el desarrollo de una práctica dental ciento por ciento profesional y sofisticada, pues posibilita la obtención de piezas precisas, simplifica los pasos de laboratorio y optimiza todo el proceso del tratamiento odontológico.
-    .d-flex.flex-wrap.align-items-center.mb-5
-      .col-xl-6.order-2.order-xl-1
-        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #C3F1F2" data-aos="fade-right")
-          h4 ¿Cómo funciona?
-          p.mb-0 Fabricando piezas, partiendo de una reproducción digital tridimensional de la boca del paciente, lo que reduce al 100% los errores humanos en materia de exactitud de piezas.
-        p(data-aos="fade-right") Los materiales que emplea este sistema son los polímeros, la cerámica de vidrio, la resina, las ceras, el titanio de grado 2 o dorado y el circonio, todos elementos biocompatibles y seguros para la creación de prótesis dentarias resistentes, durables y sumamente estéticas
-        p(data-aos="fade-right") Las aplicaciones de esta tecnología tridimensional son bastantes, permitiendo a un laboratorio fabricar todo tipo de prótesis dental:
-        .tarjeta.tarjeta--azul.d-flex.flex-wrap.align-items-center.px-4(data-aos="fade-right")
-          img.mb-4.mb-lg-0.col-lg-4(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 205px")  
-          .col-lg-8.mb-4.mb-lg-0
-            ul.lista-ul--color.mb-0
-              li.d-flex.align-items-start.mb-0
-                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
-                | Coronas CAD/CAM.
-              li.d-flex.align-items-start.mb-0
-                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
-                | Coronas 3D para restauraciones permanentes.
-              li.d-flex.align-items-start.mb-0
-                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
-                | #[em Inlay.]
-              li.d-flex.align-items-start.mb-0
-                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
-                | #[em Onlay.]
-              li.d-flex.align-items-start.mb-0
-                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
-                | #[em Veneers.]
-              li.d-flex.align-items-start.mb-0
-                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
-                | Prótesis dental de zirconio.
-              li.d-flex.align-items-start.mb-0
-                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
-                | Restauraciones metal – cerámica.
-              li.d-flex.align-items-start.mb-0
-                span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
-                | Restauraciones temporales y permanentes.
-      .col-xl-6.order-1.order-xl-2.ps-xl-4.mb-4.mb-xl-0
-        img.mx-auto(src="@/assets/curso/temas/tema2/img-9.png" data-aos="fade-left" style="max-width: 610px")
+      .d-flex.flex-wrap.align-items-center.mb-5(data-aos="fade-right")
+        img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
+        p.ps-md-4.col-md.mb-0 La odontología digital permite crear una prótesis dental de gran resistencia y calidad con la mejor adaptabilidad a la boca del paciente, ya que la fabricación se realiza de manera personalizada y en tiempo real. En el caso concreto del sistema CAD/CAM, introducido en el campo de la odontología en la década de 1970, impulsa el desarrollo de una práctica dental ciento por ciento profesional y sofisticada, pues posibilita la obtención de piezas precisas, simplifica los pasos de laboratorio y optimiza todo el proceso del tratamiento odontológico.
+      .d-flex.flex-wrap.align-items-center.mb-5
+        .col-xl-6.order-2.order-xl-1
+          .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #C3F1F2" data-aos="fade-right")
+            h4 ¿Cómo funciona?
+            p.mb-0 Fabricando piezas, partiendo de una reproducción digital tridimensional de la boca del paciente, lo que reduce al 100% los errores humanos en materia de exactitud de piezas.
+          p(data-aos="fade-right") Los materiales que emplea este sistema son los polímeros, la cerámica de vidrio, la resina, las ceras, el titanio de grado 2 o dorado y el circonio, todos elementos biocompatibles y seguros para la creación de prótesis dentarias resistentes, durables y sumamente estéticas
+          p(data-aos="fade-right") Las aplicaciones de esta tecnología tridimensional son bastantes, permitiendo a un laboratorio fabricar todo tipo de prótesis dental:
+          .tarjeta.tarjeta--azul.d-flex.flex-wrap.align-items-center.px-4(data-aos="fade-right")
+            img.mb-4.mb-lg-0.col-lg-4(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 205px")  
+            .col-lg-8.mb-4.mb-lg-0
+              ul.lista-ul--color.mb-0
+                li.d-flex.align-items-start.mb-0
+                  span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+                  | Coronas CAD/CAM.
+                li.d-flex.align-items-start.mb-0
+                  span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+                  | Coronas 3D para restauraciones permanentes.
+                li.d-flex.align-items-start.mb-0
+                  span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+                  | #[em Inlay.]
+                li.d-flex.align-items-start.mb-0
+                  span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+                  | #[em Onlay.]
+                li.d-flex.align-items-start.mb-0
+                  span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+                  | #[em Veneers.]
+                li.d-flex.align-items-start.mb-0
+                  span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+                  | Prótesis dental de zirconio.
+                li.d-flex.align-items-start.mb-0
+                  span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+                  | Restauraciones metal – cerámica.
+                li.d-flex.align-items-start.mb-0
+                  span(style="margin-top: .5rem; background-color: #0273BC; border-radius: 50%; max-height: 8px; min-height: 8px; max-width: 8px; min-width: 8px;")
+                  | Restauraciones temporales y permanentes.
+        .col-xl-6.order-1.order-xl-2.ps-xl-4.mb-4.mb-xl-0
+          img.mx-auto(src="@/assets/curso/temas/tema2/img-9.png" data-aos="fade-left" style="max-width: 610px")
 
     .d-flex.flex-wrap.align-items-center.mb-5(style="background-color: #EFEFF3")
       img.mb-4.mb-lg-0.col-lg-6(src="@/assets/curso/temas/tema2/img-11.png" data-aos="fade-right")
@@ -137,19 +143,19 @@
     p.text-center.mb-5(data-aos="fade-right") De esta manera, se puede categorizar al sistema CAD/CAM en fases metodológicas a la hora de crear una prótesis dental 3D:
 
     .bg-edit-last
-      .col-lg-6.col-xl-3.px-md-2.d-flex(data-aos="fade-right")
+      .col-lg-6.col-xl-3.px-md-2.d-flex.mb-4(data-aos="fade-right")
         .tarjeta.p-4
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-12.svg" style="max-width: 65px")
           p.mb-0 #[b 1.] Escaneo digitalizado de la cavidad bucal, de la mordida o del diente o implante a fabricar gracias al trabajo con un escáner intraoral. 
-      .col-lg-6.col-xl-3.px-md-2.d-flex(data-aos="fade-left")
+      .col-lg-6.col-xl-3.px-md-2.d-flex.mb-4(data-aos="fade-left")
         .tarjeta.p-4
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-13.svg" style="max-width: 65px")
           p.mb-0 #[b 2.] Diseño en ordenador de la prótesis dental utilizando un #[em software] 3D que permite calcular los ejes de inserción y tener referencias para fabricar posteriormente la pieza de forma exacta. 
-      .col-lg-6.col-xl-3.px-md-2.d-flex(data-aos="fade-right")
+      .col-lg-6.col-xl-3.px-md-2.d-flex.mb-4(data-aos="fade-right")
         .tarjeta.p-4
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-14.svg" style="max-width: 65px")
           p.mb-0 #[b 3.] La impresión del dispositivo dental en muy pocos minutos, partiendo de los datos en tiempo real que fueron recabados en el diseño de la prótesis.
-      .col-lg-6.col-xl-3.px-md-2.d-flex(data-aos="fade-left")
+      .col-lg-6.col-xl-3.px-md-2.d-flex.mb-4(data-aos="fade-left")
         .tarjeta.p-4
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-15.svg" style="max-width: 65px")
           p.mb-0 #[b 4.] Acabado de producto aplicando la caracterización final para mejorar la estética.
