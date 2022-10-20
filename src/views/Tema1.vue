@@ -22,7 +22,7 @@
     p.mb-5(data-aos="fade-right") Para profundizar sobre estos modelos, a continuación se presenta el siguiente video. 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uM4R8IeZmUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       img.col-md-2.mb-2.mb-md-0(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 85px;")
       p.ps-md-4.col-md.mb-0 La función principal del modelo de trabajo es confeccionar sobre él las restauraciones definitivas y los materiales elegidos para su elaboración deben cumplir ciertos requisitos, puesto que los modelos están sujetos a muchos cambios durante los procedimientos de laboratorio que se realizan. En el siguiente video se observan los diferentes modelos.
