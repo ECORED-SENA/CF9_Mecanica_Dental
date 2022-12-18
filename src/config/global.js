@@ -338,12 +338,12 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      // {
-      //   nombre: 'Nombre',
-      //   cargo: 'Diseño web',
-      //   centro:
-      //     'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      // },
+      {
+        nombre: 'Yerson Fabian Zarate Saavedra',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
       {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Revisión de guion audiovisual',

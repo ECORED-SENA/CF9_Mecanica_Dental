@@ -102,11 +102,21 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema4/img-14.png')
-    p.mb-5(data-aos="fade-right") Para profundizar sobre el diseño y fabricación de prótesis fijas de manera analógica, se invita a ver este video. 
+    p.mb-5(data-aos="fade-right") Para profundizar sobre el diseño y fabricación de prótesis fijas de manera analógica, se invita a ver los siguientes videos. 
 
-    figure.mb-5(data-aos="fade-left")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    LineaTiempoD.color-primario.mb-5
+      .row.pt-3(numero="1" titulo="Vaciado de impresión")
+        figure.mb-5
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/0hZEvRf7kN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .row.pt-3(numero="2" titulo="Preparación del modelo y elaboración de la estructura pateresin")
+        figure.mb-5
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/oDaFvXJKmd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .row.pt-3(numero="3" titulo="Elaboración de estructura pateresin")
+        figure.mb-5
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/S3cFLgJaof4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .title-edit.mb-5(data-aos="fade-right")
       span(style="background-color: #0082EF; width: 21px; height: 21px;")
@@ -115,11 +125,6 @@
     p.mb-5(data-aos="fade-left") Esta técnica permite la realización de restauraciones indirectas, prótesis fijas unitarias y plurales, #[em inlay-cores], carillas, prótesis fijas peri implantares (pegadas o atornilladas) e incluso prótesis provisionales. #[b(style="color: #0273BC") En el siguiente recurso se pueden ver sus principales etapas.]
     
     SlyderB.mb-5(:datos="datosSlyder2" data-aos="fade-right")    
-    
-    p.mb-5(data-aos="fade-right") En el siguiente video se profundiza. sobre el diseño y fabricación de prótesis fijas de manera digital.
-    figure.mb-5(data-aos="fade-left")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
 </template>
 

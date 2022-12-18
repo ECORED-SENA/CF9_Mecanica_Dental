@@ -28,7 +28,7 @@
       p.ps-md-4.col-md.mb-0 La función principal del modelo de trabajo es confeccionar sobre él las restauraciones definitivas y los materiales elegidos para su elaboración deben cumplir ciertos requisitos, puesto que los modelos están sujetos a muchos cambios durante los procedimientos de laboratorio que se realizan. En el siguiente video se observan los diferentes modelos.
     figure(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/z4U1rMCqb98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
