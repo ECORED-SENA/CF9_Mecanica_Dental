@@ -24,10 +24,10 @@
         ul.lista-ul
           li(data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #0273BC; font-size: 20px")
-            P #[b(style="color: #0273BC") Encerados:] se encera la corona o puente y se ponen los jitos (son estructuras a través de la cual va a pasar el metal colado), para llevarlo a la cámara de rechupado. En los jitos, a veces se pueden poner estructuras complementarias para la expulsión de gases. Es muy importante el encerado para obtener un buen colado (se emplearán aleaciones preciosas o titanio, etc.).
+            P #[b(style="color: #0273BC") Encerados:] se encera la corona o puente y se ponen los gitos (son estructuras a través de la cual va a pasar el metal colado), para llevarlo a la cámara de rechupado. En los gitos, a veces se pueden poner estructuras complementarias para la expulsión de gases. Es muy importante el encerado para obtener un buen colado (se emplearán aleaciones preciosas o titanio, etc.).
           li(data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #0273BC; font-size: 20px")
-            P #[b(style="color: #0273BC") Técnicas de colado:] se pone el encerado en el cilindro de revestimiento, se expande el revestimiento en el horno, se cuela el metal, se elimina el revestimiento y, por último, se repasa y pule el metal para eliminar los jitos y demás).
+            P #[b(style="color: #0273BC") Técnicas de colado:] se pone el encerado en el cilindro de revestimiento, se expande el revestimiento en el horno, se cuela el metal, se elimina el revestimiento y, por último, se repasa y pule el metal para eliminar los gitos y demás.
           li(data-aos="fade-right")
             ul.lista-ul
               li
@@ -57,12 +57,12 @@
 
     .col-xl-8.mb-5.mx-auto(data-aos="fade-right")
       img(src="@/assets/curso/temas/tema4/img-7.jpg" style="max-width: 820px;")
-    p.mb-5(data-aos="fade-right") En la siguiente figura se describen esos pasos importantes que se llevan a cabo en la fabricación de la prótesis fija en cerámica.
+    p.mb-5(data-aos="fade-right") A continuación se describen esos pasos importantes que se llevan a cabo en la fabricación de la prótesis fija en cerámica.
 
     LineaTiempoD.color-primario.mb-5
       .row.pt-3(numero="1" titulo="Recubrimientos" data-aos="fade-right")
         .col-md-6.mb-4.mb-md-0
-          p Se usa en manchas blancas, pigmentaciones superficiales, etc. Los pigmentos que se usan son de todos los colores, y suelen estar formados por óxidos metálicos.
+          p Se hacen, porque son cerámicas muy estéticas. Se consigue  calidad similar a los dientes naturales y se logran reflejos similares.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema4/img-8.png')

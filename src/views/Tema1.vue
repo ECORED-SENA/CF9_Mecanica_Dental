@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Normativa nacional para laboratorios de mecánica dental
+      h1 Modelo de prótesis fija
     
     .d-flex.flex-wrap.mb-5
       .col-xl-7.order-2.order-xl-1(data-aos="fade-right")

@@ -222,7 +222,7 @@ export default {
     {
       termino: 'Pinza de mosquito',
       significado:
-        'instrumental que se usa para sujetar la pieza en la que quieras aplicar el <em>opaque</em> por medio del jito.',
+        'instrumental que se usa para sujetar la pieza en la que quieras aplicar él <em>opaque</em> por medio del gito.',
     },
     {
       termino: 'Póntico',
@@ -317,7 +317,7 @@ export default {
       {
         nombre: 'Daniel L. Toro A.',
         cargo: 'Instructor',
-        centro: 'Centro de servicios de salud. Regional Antioquia',
+        centro: 'Centro de Servicios de Salud. Regional Antioquia',
       },
       {
         nombre: 'Paola Alexandra Moya Peralta',
@@ -328,7 +328,7 @@ export default {
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Asesora metodológica',
-        centro: 'Centro de Diseño y Metrología.Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología. Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
